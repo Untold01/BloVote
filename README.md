@@ -1,18 +1,40 @@
-# Decentralised Voting (dVoting)
+## Blovote – A Decentralized Voting App
 
-A decentralised voting system based on [Ethereum blockchain](https://ethereum.org/dapps/) technology.
+Hey there!
+This is Blovote, a simple decentralized voting system built using Ethereum blockchain.
+I originally made this as my final year project for my CS degree, but now I’m trying to make it something more useful and real-world.
 
-> This started as a final year project for the IT Degree that I was/am pursuing, now aiming to make this more than that.
+This app lets people vote securely and transparently using smart contracts and blockchain so no one can mess with the results. It’s all open and verifiable!
 
-## System Workflow
 
-A brief explanation on the basic workflow of the application.
+## How It Works (Basic WorkFlow)
 
-- Admin will create a voting instance by launching/deploying the system in a blockchain network (EVM), then create an election instance and start the election with the details of the election filled in (including candidates for voters to vote).
-- Then the likely voters connect to the same blockchain network register to become a voter. Once the users successfully register, their respective details are sent/displayed in the admins' panel (i.e. verification page).
-- The admin then will check if the registration information (blockchain account address, name, and phone number) is valid and matches with his record. If yes, then the admin approves the registered user making them eligible to take part and cast their respective vote in the election.
-- The registered user (voter) following the approval from the admin casts their vote to the candidate of interest (from the voting page).
-- After some time, depending on the scale of the election the admin ends the election. As that happens the voting is closed and the results are displayed announcing the winner at the top of the results page.
+Here’s a simple idea of how everything works:
+
+1.Admin sets things up
+
+--Deploys the smart contract to the blockchain.
+--Creates an election by adding candidates and other details.
+
+2.People register to vote
+
+--Voters connect their wallet (like MetaMask) and register.
+--Their details get sent to the admin for approval.
+
+3.Admin approves voters
+
+--Admin checks if the voter info is correct.
+--If all good, approves them to vote.
+
+4.Voting begins
+
+--Verified users can log in and cast their vote.
+--Votes are stored securely on the blockchain.
+
+5.Election ends
+
+--Admin ends the voting.
+--Results are shown right away, and winner is announced.
 
 
 ## Setting up the development environment
